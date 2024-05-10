@@ -1,0 +1,74 @@
+body{
+  background-color: rgb(240, 235, 227);
+  font-size: 16px;
+  font-family: 'American Typewriter', sans-serif;
+}
+
+
+ 
+ h1,h2{
+  font-family: 'Modern Love Grunge', sans-serif;
+}
+
+h1{
+  font-size: 37px;
+  line-height: 1;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: rgb(168, 118, 118);
+}
+h2{
+  font-size: 23px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: rgb(202, 135, 135);
+}
+a {
+  color: teal;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: rgb(168, 118, 118);
+  text-decoration: none;
+  }
+
+ div{
+  text-align:center;
+  text-justify:values;
+}
+
+ /*Custom design with class*/
+
+ .container{
+  width: 700px;
+  margin:40px auto;
+}
+.card-white{
+  background-color: white;
+    padding: 20px;
+    box-shadow: 0px 10px 35px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    text-align: centre;
+    margin: 20px;
+  }
+  .img-circle{
+  border-radius: 51%;
+}
+
+.btn-blue{
+  background-color: rgb(181, 192, 208);
+  color: rgb(231, 136, 149);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
+
